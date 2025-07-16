@@ -277,14 +277,14 @@ function updateCont(isDifferential){
 function resNC(arr){
     row = document.getElementById("resnc")
     for (const [i, n] of arr.entries()){
-        row.children[i+1].innerHTML = n
+        row.children[i+1].innerHTML = n.toLocaleString()
     }
 }
 
 function resND(arr){
     row = document.getElementById("resnd")
     for (const [i, n] of arr.entries()){
-        row.children[i+1].innerHTML = n
+        row.children[i+1].innerHTML = n.toLocaleString()
     }
 }
 
